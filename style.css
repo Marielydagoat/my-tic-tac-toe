@@ -1,0 +1,115 @@
+*{
+    margin: 0%; 
+ }
+ 
+ body{
+     /* background-image: url(./OIP\ \(2\).jpg); */
+    background-size: cover;
+ }
+ 
+ .page{
+     display: flex;
+     justify-content: center;
+     background-image: url(./OIP\ \(1\).jpg);
+     background-size: contain;
+ }
+ 
+ /* .container{
+     border-radius: 20px;
+     border: 5px, rgba(0, 0, 0, 0.711), solid;
+    background-image: url(./OIP.jpg);
+  
+ } */
+ 
+ h1, h2{
+     color: rgb(0, 0, 0);
+     text-align: center;
+     
+ }
+ 
+ .player1, .player2, .tie{
+     font-size: larger;
+     color: rgb(3, 0, 1);
+     height: 150px;
+     width:150px ;
+     text-align: center;
+     margin: 5px;
+ }
+ 
+ .player1{
+     background-color: rgba(20, 146, 249, 0.822);
+ }
+ 
+ .player2{
+     background-color: rgba(221, 24, 113, 0.795);
+ 
+     background-color: rgba(76, 76, 142, 0.822);
+ }
+ 
+ .player2{
+     background-color: rgba(199, 74, 74, 0.795);
+ 
+ }
+ 
+ .tie{
+     background-color: rgba(219, 195, 8, 0.895);
+ }
+ 
+ .score{
+    background-color: rgba(0, 0, 0, 0.467);
+     border: 5px, rgba(0, 0, 0, 0.925), solid;
+     height: 160px;
+     display: flex;
+     justify-content: center;
+     margin: 10px;
+     
+ }
+ 
+ .itemContainer{
+ border-radius: 20px;
+ border: 5px, rgba(0, 0, 0, 0.711), solid;
+ background-image: url(./OIP.jpg);
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ }
+ 
+ .row{
+     display: flex;
+ 
+ }
+ 
+ .boxItems, button{
+     border-radius: 20px;
+     margin: 5px;
+     width: 130px;
+     height: 140px;
+     background-color: rgba(84, 41, 3, 0.608);
+ }
+ button:hover{
+     background-color:transparent;
+ }
+ 
+ .boxItems{background-color: transparent;}
+ 
+ .btn {
+     font-size: 100px;
+ }
+ 
+ .bottom{
+ 
+     height:50px ;
+     width: 100px;
+ 
+     background-color:rgba(225, 9, 99, 0.849) ;
+ }
+ 
+ .bottom:hover{
+     background-color: rgba(27, 202, 241, 0.69);
+     background-color:rgba(190, 6, 6, 0.849) ;
+ }
+ 
+ .bottom:hover{
+     background-color: rgba(11, 11, 150, 0.69);
+ 
+ }

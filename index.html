@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page">
+        <div class="container">
+            <h1>tic-tac-toe</h1>
+            <div class="score">
+                 <div class="player1"><h3>player X score</h3><h1 class="player1score">0</h1></div>
+                <div class="player2"><h3>player O score</h3><h1 class="player2score">0</h1></div>
+                <div class="tie"><h3>tie scoree</h3><h1 class="tieScore">0</h1></div>
+             </div>
+             <h2 class="player-turn">player X's turn</h2>
+            <div class="itemContainer">
+                <div class="row"> 
+                    <div class="boxItems"><button class="btn" onclick="boardAdd(0, 0)"></button></div>
+                     <div class="boxItems"><button class="btn" onclick="boardAdd(1, 0)"></button></div>
+                    <div class="boxItems"><button class="btn" onclick="boardAdd(2, 0)"></button></div>
+                </div>
+
+                <div class="row">
+                    <div class="boxItems"><button class="btn" onclick="boardAdd(0, 1)"></button></div>
+                     <div class="boxItems"><button class="btn" onclick="boardAdd(1, 1)"></button></div>
+                     <div class="boxItems"><button class="btn" onclick="boardAdd(2, 1)"></button></div>
+                </div>
+                <div class="row"> 
+                     <div class="boxItems"><button class="btn" onclick="boardAdd(0, 2)"></button></div>
+                     <div class="boxItems"><button class="btn" onclick="boardAdd(1, 2)"></button></div>
+                     <div class="boxItems"><button class="btn" onclick="boardAdd(2, 2)"></button></div>
+                </div>
+                
+            </div>
+            
+            <button class="bottom" onclick="clearBoard()">Clear board</button>
+             <button class="bottom" onclick="resetBoard()">Reset</button>
+        </div>
+        
+   </div>
+    
+    
+    <script src="index.js"></script>
+</body>
+</html>
